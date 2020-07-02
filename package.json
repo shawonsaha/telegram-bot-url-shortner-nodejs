@@ -1,0 +1,20 @@
+{
+  "name": "shawonify",
+  "version": "0.0.1",
+  "description": "A nodeJS Telegram Bot to shawonify url",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.7",
+    "node-telegram-bot-api": "^0.50.0",
+    "shorthash": "0.0.2"
+  },
+  "engines": {
+    "node": "10.17.0"
+  }
+}
